@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 7</title>
+    <style>
+        #first {
+            height : auto;
+            width : 50%;
+            background-color: rgb(117, 1, 58);
+            padding : 50px 120px 50px 120px ;
+        }
+        #second {
+            height: 500px;
+            background-color: rgb(90, 1, 58);
+            padding : 10px 25px 0px;
+        }
+        #second label {
+            display: inline-block;
+            padding-right: 5px;
+            padding-top: 10px;
+            color : white;
+        }
+        .a {
+            width : 300px;
+            height: 40px;
+            border-radius: 5%;
+            font-size: larger;
+            font-weight: bolder;
+        }
+        .b {
+            height : 40px
+        }
+
+    </style>
+</head>
+<body>
+    <center>
+   <div id="first">
+    <div id="second">
+        <form>
+            <label for="fn">Name : </label>
+            <input type="text" style="margin-left: 60px;" name="fn" placeholder="your name" /><br /><br>
+            <label for="email">Email : </label>
+            <input type="text" style="margin-left: 60px;" name="email" placeholder="your email"/><br /><br>
+            <label for="password">Password : </label>
+            <input type="password" style="margin-left: 50px;" name="password" /><br /><br>
+            <label for="p">Phone number : </label>
+            <input type="text" style="margin-left: 30px;" name="p"/><br /><br>
+            <label for="gender">Gender : </label>
+            <input type="radio" name="gender" style="margin-left: 40px;" /> <b style="color:white">Male  </b>
+            <input type="radio" name="gender"  /><b style="color:white">Female  </b> 
+            <input type="radio" name="gender" /> <b style="color:white">Others </b><br /><br>
+            <label for="c">Language : </label></td>
+            <select style="margin-left: 50px; height: 30px; width: 180px; background-color: rgba(197, 183, 183, 0.884);">
+                    <option>select a Language</option>
+                    <option>English</option>
+                    <option>Telugu</option>
+                    <option>Tamil</option>
+                    <option>Hindi</option>
+                    <option>Kannada</option>
+                </select>
+            <br /><br>
+            <label for="code">Zip code : </label>
+            <input type="text" style="margin-left: 60px;" name="code" /><br /><br>
+            <label for="about">About : </label>
+            <input type="text" class="b"style="margin-left: 60px;" name="about" placeholder="write about yourself..."/><br /><br>
+            <input class="a" type="submit" value="Register" />
+            
+        </form>
+    </div>
+   </div> 
+</center>
+</body>
+</html>

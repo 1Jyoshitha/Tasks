@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 6</title>
+    <style>
+        img {
+            border-radius: 50%;
+            margin-left: 100px;
+        }
+        body {
+            font-weight: bolder;
+        }
+        .a {
+            height : 30px;
+            background-color: green;
+            color : white;
+            border : 0px;
+        }
+        div {
+            padding: 5% 40%  10%;
+        }
+        input {
+            width : 400px;
+            height : 30px;
+        }
+        .b {
+            width : 10px;
+            height: 10px;
+        }
+        .container {
+            height : 30px;
+            width : 250px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+         span.psw {
+            float: right;
+            
+            padding-top: 16px;
+            padding-left : 25px;
+            margin-left: 10px;
+        }
+        .cancelbtn {
+            float: left;
+            width: auto;
+            padding: 10px 25px;
+            background-color: #ee2011;
+            color: white;
+            border : 0px;
+}
+        
+    </style>
+</head>
+<body>
+    <center>
+    <img src="./photo.webp" alt="person" height="200px" width="200px"></center>
+    <div>
+    <form>
+        <label for="Username">Username  </label><br>
+        <input type="text"  name="Username" required placeholder="Enter username"/><br><br>
+        <label for="password">Password  </label><br>
+        <input type="password"  name="password" required placeholder="Enter Password"/><br><br>
+        <input class="a" type="submit" value="Login" /><br><br>
+        <input class="b" type="checkbox" checked>Remember me <br><br>
+        <div class="container" style="background-color:#f1f1f1">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+          </div>
+    </form>
+    </div>
+</body>
+</html>
