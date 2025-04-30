@@ -1,5 +1,5 @@
 
-# React Task Collection 🧩
+# Tasks Collection 🧩
 
 This repository is a collection of mini-projects and tasks created to practice and demonstrate core concepts of **ReactJS**. Each task is organized in its own folder (e.g., `task1`, `task2`, etc.) and focuses on different frontend fundamentals such as components, state management, props, hooks, and more.
 
